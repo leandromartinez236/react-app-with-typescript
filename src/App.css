@@ -1,2 +1,25 @@
-
-
+.App {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 26px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.List {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.List h1 {
+  text-align: center;
+}
+.list-items {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+}
+.form {
+  max-width: fit-content;
+  margin: 0;
+}
